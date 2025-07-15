@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from '../Assets/Images/imageDesgin.jpg'
 
 export default function Design() {
   return (
@@ -11,7 +10,6 @@ export default function Design() {
       justifyContent: 'center',
       alignItems: 'center'
     }}>
-      <img src={Image} alt="Wassim Guidara Engineer Package" style={{height:'100vh', width:'auto'}} />
     </div>
   )
 }
